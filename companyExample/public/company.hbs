@@ -1,0 +1,9 @@
+<li>
+    <label>Name: </label>{{name}}<br/>
+    <label>Weekly hours: </label>{{hours}}<br/>
+    <label>Employees: </label><p>
+    {{#each employees}}
+        {{name}} ({{title}})<br/>
+    {{/each}}
+    </p>
+</li>
