@@ -9,7 +9,7 @@ describe('integration test - promise', function () {
     it("get('/') test", function () {
         return request(app)
             .get('/')
-            .expect(300)
+            .expect(200)
             .expect('Content-Type', /html/);
     });
 
